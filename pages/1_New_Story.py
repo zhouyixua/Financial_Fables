@@ -1,7 +1,13 @@
 import os
 import time
-import requests
 import io
+
+from base64 import b64decode
+
+# This video explains how to save b64 as file.
+# https://www.youtube.com/watch?v=-vFrV1LRhd0
+
+# Store file to Bytes.io, then upload to supabase
 
 import openai
 import streamlit as st
