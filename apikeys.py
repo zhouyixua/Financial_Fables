@@ -1,1 +1,1 @@
-openaikey = "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"
+openaikey = "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"
