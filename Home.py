@@ -28,3 +28,5 @@ with col3:
   st.subheader("E-safety")
   for topic in e_safety_topics:
     st.write(topic)
+
+st.write("To find out more about these topics, create a new story")
