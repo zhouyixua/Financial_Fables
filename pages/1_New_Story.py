@@ -29,7 +29,6 @@ supabase_key = st.secrets["supabase_key"]
 supabase: Client = create_client(supabase_url, supabase_key)
 os.environ['OPENAI_API_KEY'] = openaikey
 
-useraikey = st.sidebar("Enter your OpenAI API Key")
 
 financial_topics = ["Saving Money", "Budgeting", "Tax", "Investing"]
 banking_topics = ["Banking Services", "Saving Accounts", "Debit & Credit Cards"]
