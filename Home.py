@@ -2,7 +2,7 @@ import streamlit as st
 
 financial_topics = ["Saving Money", "Budgeting", "Tax", "Compound Interest", "Investing"]
 banking_topics = ["Banking Services", "Saving Accounts", "Credit & Debit Cards"]
-e_safety_topics = ["Online Banking", "Phishing", "Gambling"]
+e_safety_topics = ["Online Banking", "Phishing", "Gambling", "Cryptocurrency"]
 
 #### FRONT END ####
 
